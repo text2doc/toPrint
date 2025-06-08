@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="toPrint",
-    version="0.1.25",
+    version="0.1.26",
     description="Print from html to pdf, zpl, image, printer: html to print, htmltoPrint, html to pdf,html2pdf, pdf to print, pdftoPrint, zpl to print,zpltoPrint, image to print,  imagetoPrint, ",
     author="Tom Softreck",
     author_email="info@softreck.dev",
