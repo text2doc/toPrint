@@ -8,7 +8,7 @@ except FileNotFoundError:
     long_description = "A comprehensive printing solution for HTML, PDF, ZPL, and image formats with printer support"
 
 setup(
-    name="to-print",
+    name="toprint",
     version="0.1.29",
     description="Python library for printing and converting between HTML, PDF, ZPL, and image formats with printer support",
     long_description=long_description,
