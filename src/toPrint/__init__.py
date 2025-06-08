@@ -14,7 +14,7 @@ toPrint implements a virtual file system in memory. This module provides an inte
 # Avoid importing components directly to prevent circular imports
 from toPrint.toPrint import toPrint
 
-__version__ = "0.1.29"
+__version__ = "0.1.12"
 __version_tuple__ = (0, 1, 17)
 
 __all__ = ["toPrint"]
