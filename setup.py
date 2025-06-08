@@ -10,7 +10,7 @@ except FileNotFoundError:
 setup(
     name="toprint",
     version="0.1.29",
-    description="Python library for printing and converting between HTML, PDF, ZPL, and image formats with printer support",
+    description="2print/toprint: Python library for printing and converting between HTML, PDF, ZPL, and image formats with printer support. Also known as 2print or to-print.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Tom Softreck",
@@ -19,12 +19,18 @@ setup(
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     keywords=[
+        # Podstawowe słowa kluczowe
         'printing', 'pdf', 'html', 'zpl', 'label', 'printer', 'conversion',
-        'html2pdf', 'pdf2print', 'zpl2print', 'image2print', 'document',
-        'report', 'label-printing', 'barcode', 'qrcode', 'thermal-printing',
-        'document-generation', 'report-generation', 'zebra', 'zpl-printer',
-        'weasyprint', 'pdf-generation', 'html-to-pdf', 'print-to-pdf',
-        'thermal-print', 'label-maker', 'document-conversion'
+        # Warianty z 2 dla lepszego wyszukiwania
+        '2print', '2-print', 'print2', 'print-2',
+        # Konwersje między formatami
+        'html2pdf', 'pdf2print', 'zpl2print', 'image2print',
+        'html-to-pdf', 'pdf-to-print', 'zpl-to-print', 'image-to-print',
+        # Dodatkowe słowa kluczowe
+        'document', 'report', 'label-printing', 'barcode', 'qrcode',
+        'thermal-printing', 'document-generation', 'report-generation',
+        'zebra', 'zpl-printer', 'weasyprint', 'pdf-generation',
+        'print-to-pdf', 'thermal-print', 'label-maker', 'document-conversion'
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
