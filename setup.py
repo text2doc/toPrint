@@ -5,7 +5,7 @@ try:
     with open("README.md", "r", encoding="utf-8") as fh:
         long_description = fh.read()
 except FileNotFoundError:
-    long_description = "A comprehensive printing solution for HTML, PDF, ZPL, and image formats with printer support"
+    long_description = "2print (also known as toprint) - A comprehensive printing solution for HTML, PDF, ZPL, and image formats with printer support. Perfect for converting and printing documents in various formats including HTML to PDF, PDF to print, ZPL label printing, and image processing."
 
 setup(
     name="toprint",
