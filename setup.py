@@ -9,7 +9,7 @@ except FileNotFoundError:
 
 setup(
     name="toprint",
-    version="0.1.29",
+    version="0.1.31",
     description="2print/toprint: Python library for printing and converting between HTML, PDF, ZPL, and image formats with printer support. Also known as 2print or to-print.",
     long_description=long_description,
     long_description_content_type="text/markdown",
